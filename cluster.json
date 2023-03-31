@@ -1,0 +1,20 @@
+{
+        "cluster":{
+            "cluster_name": "hyp-neo-v3-s01",
+            "neo4j_version": "4.4.8",
+            "cluster_neo4j_url":"https://hyp-neo-v3-s01.fulcrumsaas.net/",
+            "nodes":
+            [
+                {
+                    "server_name":"hyp-neo-v3-s01-04",
+                    "ip_address":"143.198.74.9",
+                    "server_mode":"READ_REPLICA"
+                },
+                {
+                    "server_name":"hyp-neo-v3-s01-05",
+                    "ip_address":"159.203.164.181",
+                    "server_mode":"READ_REPLICA"
+                }
+            ]
+        }
+}
